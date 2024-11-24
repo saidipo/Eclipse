@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="Axis2WSTest">
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="axis.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/ms070/Downloads/soa/axis.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                
+        <property name="context-root" value="Axis2WSTest"/>
+                
+        <property name="java-output-path" value="/Axis2WSTest/build/classes"/>
+            
+    </wb-module>
+    
+</project-modules>
